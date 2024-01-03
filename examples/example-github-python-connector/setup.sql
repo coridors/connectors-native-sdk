@@ -1,3 +1,7 @@
+--Setup script defines objects which are created and needed inside the application.
+--This includes procedures, schemas, tables etc.
+-- Script - (https://docs.snowflake.com/en/developer-guide/native-apps/creating-setup-script)
+
 create or alter versioned schema public;
 create schema if not exists state;
 create schema if not exists tasks;

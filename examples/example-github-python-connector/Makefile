@@ -1,3 +1,5 @@
+#Commands for building and deployign applications are exposed in Makefile, 
+#and are also using sql scripts defined in sql/ directory.
 APP_NAME=CORIDORS_GITHUB_PYTHON_CONNECTOR
 APP_VERSION=V_1_0_0
 STAGE_DB=${APP_NAME}_STAGE

@@ -1,3 +1,11 @@
+"""
+Manifest file is required by the native apps model.
+This file specifies properties of an application.
+Privileges and references required by the application
+can be specified inside the manifest file. 
+For more information check manifest docs (https://docs.snowflake.com/en/developer-guide/native-apps/creating-manifest)
+and requesting privileges docs (https://docs.snowflake.com/en/developer-guide/native-apps/requesting-about).
+"""
 manifest_version: 1
 artifacts:
   setup_script: setup.sql

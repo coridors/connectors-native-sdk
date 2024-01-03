@@ -1,3 +1,5 @@
+# ingestion - module that contains the ingestion logic (external connectivity with GitHub)
+
 import re
 import requests
 from snowflake.snowpark import Session

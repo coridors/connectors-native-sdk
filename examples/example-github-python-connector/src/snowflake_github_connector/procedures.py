@@ -1,3 +1,5 @@
+# procedures - module that contains definitions of all connector procedures
+
 from typing import Dict
 
 from snowflake.snowpark.functions import column

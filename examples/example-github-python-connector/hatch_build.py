@@ -1,3 +1,6 @@
+"""Build script responsible for packaging Python 
+code into a zip file and copying all resources into sf_build directory."""
+
 import shutil
 from pathlib import Path
 from typing import Any, Dict

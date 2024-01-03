@@ -1,3 +1,11 @@
+"""
+Additionally, the connector has a UI build in Streamlit.
+The Streamlit dashboard is defined in streamlit_app.py file.
+Thanks to it the connector can be configured and monitored
+using Streamlit in Snowflake. Additionally, some of the 
+privileges required by the application can be requested 
+through a pop-up in Streamlit.
+"""
 import json
 
 import pandas as pd
